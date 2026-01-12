@@ -3,4 +3,5 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
+
         <service android:exported="true" android:name="com.baidu.browser.inter.kaubd.Dycbd"/>
