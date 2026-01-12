@@ -10,6 +10,7 @@ function rmdirz {
   fi
 }
 
+
 function rmfilez {
   if [ -f $1 ]; then
     rm $1
